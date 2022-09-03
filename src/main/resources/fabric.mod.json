@@ -2,16 +2,16 @@
   "schemaVersion": 1,
   "id": "custom-loading-screen",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Custom Loading Screen",
+  "description": "Configurable loading screen mod ",
   "authors": [
-    "Me!"
+    "KikuGie"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Kikugie/custom-loading-screen",
+    "issues": "https://github.com/Kikugie/custom-loading-screen/issues"
   },
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/cls/icon.png",
   "environment": "*",
   "entrypoints": {
@@ -28,6 +28,5 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }
